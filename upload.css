@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100;200;300&family=Nunito:wght@300&family=Poppins:wght@100&family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    border:0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width:400px;
+    margin-left:auto ;
+    margin-right:auto;
+    margin-top:8rem;display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    border: #97BEF4 1px;
+   border-style: dashed;
+   padding:2rem 2rem;
+   border-radius: 12px;
+  
+}
+
+.container-first{
+    width:338px;
+    height:218.9px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+background-color: #F6F8FB;
+}
+
+h1,p,img,button,.upload-img{
+    text-align: center;
+}
+h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+button{
+    background-color:#2F80ED;
+    padding:1rem;
+    font-size: 12px;
+    border-radius: 8px;
+    color:#fff;
+     font-weight: 900;
+
+}
+.file-para{
+font-weight:900;
+font-size:10px;
+line-height: 15px;
+}
+.drag-p{
+    color:#BDBDBD ;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight:900;
+    margin-top: 3rem;
+}
+.or{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight:900;
+}
